@@ -1,1 +1,1 @@
-﻿alert('Fimose de aluminio');
+﻿
