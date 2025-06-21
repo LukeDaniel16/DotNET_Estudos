@@ -3,6 +3,8 @@
 <html>
 <head>
     <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/RazorPagesIntroduction.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -10,6 +12,9 @@
     </header>
     <main>
         @RenderBody()
-    </main>    
+    </main>
+    <footer>Lucas Daniel</footer>
+
+    @RenderSection("scripts", false)
 </body>
 </html>
